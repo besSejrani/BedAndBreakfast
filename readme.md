@@ -1,0 +1,3 @@
+# BedAndBreakfast
+
+## Documentation
