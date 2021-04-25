@@ -26,7 +26,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h1 class="mt-3">This will be the about</h1>
+          <h1 class="mt-3">This will be the contact page</h1>
         </div>
       </div>
     </div>
@@ -40,12 +40,6 @@
         <div class="col">right</div>
       </div>
     </footer>
-
-    <p>
-      {{if ne (index .StringMap "remote_ip") ""}} Your remote ip address is
-      {{index .StringMap "remote_ip"}} {{else}} I don't know your ip address
-      yet. Visit the <a href="/">home page</a> so I can set it. {{ end }}
-    </p>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
